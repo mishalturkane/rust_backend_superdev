@@ -1,0 +1,26 @@
+# Ignore the target directory (build output)
+target/
+
+# Ignore Cargo.lock if it's a library (for binaries, you can keep it)
+# Cargo.lock
+
+# Ignore IDE/editor-specific files
+**/*.swp
+**/*.swo
+.idea/
+.vscode/
+*.rs.bk
+
+# Ignore environment files
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs or temp
+*.log
+*.tmp
+
+# Ignore compiled WASM files (if using wasm)
+pkg/
